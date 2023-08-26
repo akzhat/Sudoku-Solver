@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void hello (int a)
+{
+    std::cout << "Hello World!" << std::endl;
+}
+
 void show(int x[][9] , int m , int n){
     for (int i = 0; i < 9; ++i) {
         for (int j = 0; j < 9; ++j) {
